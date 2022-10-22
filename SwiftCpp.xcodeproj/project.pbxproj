@@ -12,6 +12,7 @@
 		E964818C2903E76200F04017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E964818B2903E76200F04017 /* Assets.xcassets */; };
 		E964818F2903E76200F04017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E964818E2903E76200F04017 /* Preview Assets.xcassets */; };
 		E96481982903E82700F04017 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E96481962903E82700F04017 /* HelloWorld.cpp */; };
+		E964819B2903E95F00F04017 /* HelloWorldWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = E964819A2903E95F00F04017 /* HelloWorldWrapper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E96481962903E82700F04017 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
 		E96481972903E82700F04017 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
 		E96481992903E8E000F04017 /* HelloWorldWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldWrapper.h; sourceTree = "<group>"; };
+		E964819A2903E95F00F04017 /* HelloWorldWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldWrapper.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				E96481972903E82700F04017 /* HelloWorld.hpp */,
 				E96481952903E82700F04017 /* SwiftCpp-Bridging-Header.h */,
 				E96481992903E8E000F04017 /* HelloWorldWrapper.h */,
+				E964819A2903E95F00F04017 /* HelloWorldWrapper.mm */,
 			);
 			path = SwiftCpp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				E96481982903E82700F04017 /* HelloWorld.cpp in Sources */,
 				E964818A2903E76100F04017 /* ContentView.swift in Sources */,
 				E96481882903E76100F04017 /* SwiftCppApp.swift in Sources */,
+				E964819B2903E95F00F04017 /* HelloWorldWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
