@@ -24,4 +24,10 @@
           encoding:NSUTF8StringEncoding];
 }
 
+- (int) getRandomNumber {
+  HelloWorld helloWorld;
+  std::int32_t randomNumber = helloWorld.getRandomNumber();
+  return int(randomNumber);;
+}
+
 @end

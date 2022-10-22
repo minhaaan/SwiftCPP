@@ -12,6 +12,7 @@
 
 @interface HelloWorldWrapper : NSObject
 - (NSString *) sayHello;
+- (NSInteger) getRandomNumber;
 @end
 
 #endif /* HelloWorldWrapper_h */

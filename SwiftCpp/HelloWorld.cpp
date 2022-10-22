@@ -10,3 +10,7 @@
 std::string HelloWorld::sayHello() {
   return "Hello from CPP World!";
 }
+
+std::int64_t HelloWorld::getRandomNumber(){
+  return rand();
+};

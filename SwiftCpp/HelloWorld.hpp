@@ -14,6 +14,7 @@
 class HelloWorld {
 public:
   std::string sayHello();
+  std::int64_t getRandomNumber();
 };
 
 #endif /* HelloWorld_hpp */
