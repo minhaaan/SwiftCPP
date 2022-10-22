@@ -8,7 +8,7 @@
 #ifndef HelloWorldWrapper_h
 #define HelloWorldWrapper_h
 
-#import <Foudation/Foundation.h>
+#import <Foundation/Foundation.h>
 
 @interface HelloWorldWrapper : NSObject
 - (NSString *) sayHello;
