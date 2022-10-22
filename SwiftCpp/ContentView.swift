@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+  @State var number = 0
+  
   var body: some View {
     VStack {
       Image(systemName: "globe")
@@ -15,7 +17,13 @@ struct ContentView: View {
         .foregroundColor(.accentColor)
       Text("Hello, world!")
       Text(HelloWorldWrapper().sayHello())
-      Text("\(HelloWorldWrapper().getRandomNumber())")
+      Text("\(number)")
+      Button {
+        number = HelloWorldWrapper().getRandomNumber()
+      } label: {
+        Text("refresh")
+      }
+
     }
     .padding()
   }
