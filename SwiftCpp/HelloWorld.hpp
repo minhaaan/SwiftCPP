@@ -14,6 +14,6 @@
 class HelloWorld {
 public:
   std::string sayHello();
-}
+};
 
 #endif /* HelloWorld_hpp */
