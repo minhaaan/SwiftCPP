@@ -11,6 +11,7 @@
 		E964818A2903E76100F04017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96481892903E76100F04017 /* ContentView.swift */; };
 		E964818C2903E76200F04017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E964818B2903E76200F04017 /* Assets.xcassets */; };
 		E964818F2903E76200F04017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E964818E2903E76200F04017 /* Preview Assets.xcassets */; };
+		E96481982903E82700F04017 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E96481962903E82700F04017 /* HelloWorld.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,9 @@
 		E96481892903E76100F04017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E964818B2903E76200F04017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E964818E2903E76200F04017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E96481952903E82700F04017 /* SwiftCpp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCpp-Bridging-Header.h"; sourceTree = "<group>"; };
+		E96481962903E82700F04017 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
+		E96481972903E82700F04017 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,9 @@
 				E96481892903E76100F04017 /* ContentView.swift */,
 				E964818B2903E76200F04017 /* Assets.xcassets */,
 				E964818D2903E76200F04017 /* Preview Content */,
+				E96481962903E82700F04017 /* HelloWorld.cpp */,
+				E96481972903E82700F04017 /* HelloWorld.hpp */,
+				E96481952903E82700F04017 /* SwiftCpp-Bridging-Header.h */,
 			);
 			path = SwiftCpp;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 				TargetAttributes = {
 					E96481832903E76100F04017 = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -137,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96481982903E82700F04017 /* HelloWorld.cpp in Sources */,
 				E964818A2903E76100F04017 /* ContentView.swift in Sources */,
 				E96481882903E76100F04017 /* SwiftCppApp.swift in Sources */,
 			);
@@ -264,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftCpp/Preview Content\"";
@@ -283,6 +293,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.minan.SwiftCpp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCpp/SwiftCpp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftCpp/Preview Content\"";
@@ -312,6 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.minan.SwiftCpp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCpp/SwiftCpp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
